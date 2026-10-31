@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo-couro-forte.png" alt="Logo Botinas Couro Forte" width="120">
+<img src="IMAGE/logo-couro-forte.png" alt="Logo Botinas Couro Forte" width="120">
 
 # Sistema de Controle de Estoque — Botinas Couro Forte
 
@@ -11,6 +11,24 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Responsivo](https://img.shields.io/badge/Responsivo-Sim-8a4b1f?style=for-the-badge)
 ![Sem dependências](https://img.shields.io/badge/Depend%C3%AAncias-Nenhuma-1f8a4c?style=for-the-badge)
+
+<!-- 👇 TROQUE "COLE-SEU-LINK-AQUI" PELO LINK DO SEU SISTEMA (os dois lugares abaixo) -->
+
+### 🔗 [Acessar o sistema online](COLE-SEU-LINK-AQUI)
+
+<a href="COLE-SEU-LINK-AQUI">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20ACESSAR%20O%20SISTEMA-8a4b1f?style=for-the-badge" alt="Acessar o sistema">
+</a>
+
+<br><br>
+
+[Sobre](#-sobre-o-projeto) •
+[Telas](#-telas-do-sistema) •
+[Funcionalidades](#-funcionalidades) •
+[Como foi feito](#-como-o-sistema-foi-feito) •
+[Como usar](#-como-usar) •
+[Estrutura](#-estrutura-de-pastas) •
+[Contato](#-contato-da-fábrica)
 
 </div>
 
@@ -41,25 +59,25 @@ O sistema é feito só com **HTML, CSS e JavaScript puro**. Ele não precisa de 
 
 ---
 
-## 🖼️ Telas do sistema
+## 📸 Telas do sistema
 
 ### Painel geral (modo claro)
-![Painel geral](screenshots/painel-claro.png)
+![Painel geral](IMAGE/painel-claro.png)
 
 ### Painel geral (modo escuro)
-![Painel modo escuro](screenshots/painel-escuro.png)
+![Painel modo escuro](IMAGE/painel-escuro.png)
 
 ### Cadastro de produtos
-![Produtos](screenshots/produtos.png)
+![Produtos](IMAGE/produtos.png)
 
 ### Entrada e saída de material
-![Entrada e saída](screenshots/entrada-saida.png)
+![Entrada e saída](IMAGE/entrada-saida.png)
 
 ### Histórico de movimentações (modo escuro)
-![Histórico](screenshots/historico-escuro.png)
+![Histórico](IMAGE/historico-escuro.png)
 
 ### Versão para celular
-<img src="screenshots/celular.png" alt="Versão celular" width="300">
+<img src="IMAGE/celular.png" alt="Versão celular" width="300">
 
 ---
 
@@ -126,7 +144,7 @@ O sistema é feito só com **HTML, CSS e JavaScript puro**. Ele não precisa de 
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🧰 Tecnologias utilizadas
 
 | Tecnologia | Uso |
 |---|---|
@@ -149,8 +167,7 @@ sistema-estoque-botinas/
 ├── index.html             # Estrutura de todas as telas, modais e rodapé
 ├── style.css              # Estilos, temas claro/escuro, responsivo e impressão
 ├── script.js              # Lógica completa do sistema
-├── logo-couro-forte.png   # Logo da empresa (topo, rodapé e ícone da aba)
-├── screenshots/           # Imagens usadas neste README
+├── IMAGE/                 # Logo da empresa e prints das telas usados neste README
 └── README.md              # Este arquivo
 ```
 
@@ -166,7 +183,7 @@ sistema-estoque-botinas/
 2. Abra a pasta e dê **dois cliques no arquivo `index.html`**.
 3. Pronto! O sistema abre no navegador (Chrome, Edge, Firefox…).
 
-> ⚠️ Os arquivos `index.html`, `style.css`, `script.js` e `logo-couro-forte.png` precisam ficar **na mesma pasta**.
+> ⚠️ Os arquivos `index.html`, `style.css` e `script.js` precisam ficar **na mesma pasta**, junto com a pasta `IMAGE` (onde está a logo).
 
 ### Primeiros passos
 1. Na primeira vez, o sistema vem com **6 produtos de exemplo**. Você pode excluí-los ou apagar tudo em *Backup e Ajustes*.
@@ -273,12 +290,12 @@ O `script.js` está dentro de uma função autoexecutável (IIFE), para não cri
 
 ---
 
-## 🎛️ Personalização
+## 🔧 Personalização
 
 | O que mudar | Onde |
 |---|---|
 | Nome da empresa | `index.html`: procure por `Botinas Couro Forte` |
-| Logo | Troque o arquivo `logo-couro-forte.png`, mantendo o mesmo nome |
+| Logo | Troque o arquivo `IMAGE/logo-couro-forte.png`, mantendo o mesmo nome |
 | Telefones e WhatsApp | `index.html`, no rodapé: procure por `3315-0163` e `553433150163` |
 | Endereço e mapa | `index.html`, no rodapé: procure por `Nair Borges Bento` |
 | Horário de funcionamento | Texto em `index.html` (`listaHorario`) e cálculo em `script.js` (função `atualizarStatusAberto`) |
