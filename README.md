@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="LOGO COURO FORTE.JPG" alt="Logo Botinas Couro Forte" width="120">
+<img src="LOGO COURO FORTE.jpg" alt="Logo Botinas Couro Forte" width="120">
 
 # Sistema de Controle de Estoque — Botinas Couro Forte
 
